@@ -1,0 +1,297 @@
+@charset "utf-8";
+@import url("../webfonts/blocked/stylesheet.css");
+@import url("../webfonts/Minecraftia/stylesheet.css");
+@import url("../webfonts/Minecrafter_3/stylesheet.css");
+@import url("../webfonts/MineText/stylesheet.css");
+@import url("../webfonts/Mattsolar_2Oj28/stylesheet.css");
+@import url("../webfonts/CREABBRG/stylesheet.css");
+@import url("../webfonts/CREABBB/stylesheet.css");
+@import url("../webfonts/ALBA/stylesheet.css");
+@import url("../webfonts/ALBAM/stylesheet.css");
+@import url("../webfonts/ALBAS/stylesheet.css");
+/* Background color for navbar and dropdown menus */
+.navbar-custom, .navbar-custom .dropdown-menu {
+    background-color: #1F1F1F;
+}
+/* Text color for navbar and dropdown menus */
+.navbar-custom .navbar-brand, .navbar-custom .navbar-text, .navbar-custom .navbar-nav .nav-link, .navbar-custom .dropdown-item {
+  color: #ecf0f1;
+}
+/* Background and text colors for current page link and links on hover and focus */
+.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link, .navbar-custom .nav-item:focus .nav-link, .navbar-custom .dropdown-item:hover, .navbar-custom .dropdown-item:focus {
+  background-color: #045267;
+  color: #fff;
+}
+/* Border and text colors for menu icon on small screens */
+.custom-toggler.navbar-toggler {
+  border-color: #ecf0f1;
+  color: #fff;
+}
+/* Hamburger icon - use same rgb values as previous rule for stroke */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,240,241, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+body {
+  background-color: rgba(35, 35, 35, 1.00);
+  color: rgba(221, 221, 221, 1.00);
+  font-family: abel;
+  font-style: normal;
+  font-weight: 400;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-custom {
+  font-family: abel;
+  font-style: normal;
+  font-weight: 400;
+  font-variant: small-caps;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 131px;
+}
+.dropdown-item {
+  font-size: 31px;
+}
+h1 {
+  font-family: ALBAM;
+  font-size: 71px;
+  text-align: center;
+}
+#navbarSupportedContent2 {
+  position: relative;
+  text-transform: none;
+  text-shadow: 2px 3px rgba(128, 116, 5, 1.00);
+}
+.row {
+  font-family: abel;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(239, 239, 239, 1.00);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#link1 {
+  display: block;
+  height: 1000px;
+  width: 2000px;
+}
+#link2 {
+  display: block;
+  height: 850px;
+  width: 2000px;
+}
+#link3 {
+  display: block;
+  height: 850px;
+  width: 2000px;
+}
+p {
+  font-size: 29px;
+  text-align: center;
+}
+h2 {
+  font-size: 51px;
+  text-align: center;
+  font-weight: lighter;
+  font-style: normal;
+  font-variant: small-caps;
+  font-family: ALBAM;
+  letter-spacing: 3px;
+  text-shadow: 2px 3px rgba(0, 0, 0, 1.00);
+}
+.section.section-light {
+  background-color: rgba(54, 79, 90, 1.00);
+  color: rgba(236, 240, 241, 1.00);
+  border-bottom: medium solid rgba(211, 211, 211, 1.00);
+  border-top-style: solid;
+}
+.section.section-lighter {
+  background-color: rgba(236, 240, 241, 1.00);
+  color: rgba(30, 30, 30, 1.00);
+  margin-top: -29px;
+}
+footer {
+  position: static;
+  bottom: 0px;
+  margin-top: 27px;
+}
+.sectionenemies {
+  border-bottom: thick solid rgba(236, 240, 241, 1.00);
+}
+.section1 {
+  background-color: rgba(96, 86, 94, 1.00);
+  border-bottom: medium solid rgba(211, 211, 211, 1.00);
+  border-top-style: solid;
+}
+.section2 {
+  background-color: rgba(127, 68, 111, 1.00);
+  border-bottom: medium solid rgba(211, 211, 211, 1.00);
+  border-top-style: solid;
+}
+.col-xl-6.homewords {
+  color: rgba(31, 31, 31, 1.00);
+  font-family: abel;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 3px;
+}
+.col-3.homewords {
+  color: rgba(6, 3, 3, 1.00);
+  font-family: abel;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+}
+.carousel-control-prev-icon {
+  background-image: url(../images/left.png);
+  background-size: 55px auto;
+  padding-top: 43px;
+  padding-right: 43px;
+  padding-bottom: 43px;
+  padding-left: 43px;
+}
+.carousel-control-next-icon {
+  background-image: url(../images/right.png);
+  background-size: 55px auto;
+  padding-top: 43px;
+  padding-right: 43px;
+  padding-bottom: 43px;
+  padding-left: 43px;
+}
+.btn.btn-lg {
+  background-image: url(../images/BStart.png);
+  background-repeat: no-repeat;
+  background-size: 200% auto;
+}
+.embed-responsive.embed-responsive-21by9 {}
+.row .col-lg-6 h2 {}
+.row .col-lg-6.linker h2 {
+  text-align: left;
+}
+nav {
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 50px 0;
+  box-shadow: 0px 0px 0px #dedede;
+}
+.navbar-brand {
+    font-family: ALBA;
+    font-size: 35px;
+    text-decoration: underline;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-shadow: -5px -2px rgba(134, 121, 10, 1.00);
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  margin: 0 px;
+}
+nav ul li a, nav ul li a:after, nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}
+nav.stroke ul li a, nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after, nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+nav.fill ul li a {
+  transition: all 0.75s;
+}
+nav.fill ul li a:after {
+  text-align: left;
+  content: '';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+.pimg1 {
+  background-image: url(../images/astrolothree.png);
+  height: 900px;
+  background-position: 0% 48px;
+}
+.pimg2 {
+  background-image: url(../images/carGloss.png);
+  background-position: top;
+  height: 800px;
+}
+.pimg3 {
+  background-image: url(../images/bedroom.gif), -webkit-repeating-linear-gradient(183deg, rgba(86, 37, 73, 1.00) 66.32%, rgba(68, 109, 127, 1.00) 100%);
+  background-image: url(../images/bedroom.gif), -moz-repeating-linear-gradient(183deg, rgba(86, 37, 73, 1.00) 66.32%, rgba(68, 109, 127, 1.00) 100%);
+  background-image: url(../images/bedroom.gif), -o-repeating-linear-gradient(183deg, rgba(86, 37, 73, 1.00) 66.32%, rgba(68, 109, 127, 1.00) 100%);
+  background-image: url(../images/bedroom.gif), repeating-linear-gradient(267deg, rgba(86, 37, 73, 1.00) 66.32%, rgba(68, 109, 127, 1.00) 100%);
+  background-size: auto;
+  height: 800px;
+  background-repeat: repeat-x;
+}
+
+@media (min-width: 700px) {
+  .navbar.fixed-top.navbar-expand-lg.navbar-custom.stroke.fill {
+    border-bottom: 7px ridge rgba(255, 255, 255, 1.00);
+	  
+  }
+	.pimg1, .pimg2, .pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url(../images/astrolothree.png);
+  height: 900px;
+  background-position: 0% 48px;
+}
+.pimg2 {
+  background-image: url(../images/carGloss.png);
+  background-position: top;
+  height: 800px;
+}
+.pimg3 {
+  background-image: url(../images/bedroom.gif), -webkit-repeating-linear-gradient(183deg, rgba(86, 37, 73, 1.00) 66.32%, rgba(68, 109, 127, 1.00) 100%);
+  background-image: url(../images/bedroom.gif), -moz-repeating-linear-gradient(183deg, rgba(86, 37, 73, 1.00) 66.32%, rgba(68, 109, 127, 1.00) 100%);
+  background-image: url(../images/bedroom.gif), -o-repeating-linear-gradient(183deg, rgba(86, 37, 73, 1.00) 66.32%, rgba(68, 109, 127, 1.00) 100%);
+  background-image: url(../images/bedroom.gif), repeating-linear-gradient(267deg, rgba(86, 37, 73, 1.00) 66.32%, rgba(68, 109, 127, 1.00) 100%);
+  background-size: auto;
+  height: 800px;
+  background-repeat: repeat-x;
+}
+}
