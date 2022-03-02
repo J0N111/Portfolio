@@ -42,7 +42,7 @@ background-repeat: no-repeat;
     font-weight: normal;
     text-shadow: -2px 3px rgba(76,19,82,1.00);
     color: rgba(121,237,243,1.00);
-    font-size: 44px;
+    font-size: 25px;
 }
 
 
@@ -62,13 +62,13 @@ nav.standard {
 nav.standard a {
     color: #fff;
     display: inline-block;
-    font-size: 31.75px;
-    font-family: just-me-again-down-here;
+    font-size: 20px;
+    font-family: delius-unicase;
     font-style: normal;
     font-weight: 400;
     padding-right: 8px;
-    padding-left: 14px;
-    padding-top: 20px;
+    padding-left: 0px;
+    padding-top: 2px;
     padding-bottom: 9px;
 }
 .container-fluid.logo {
@@ -107,7 +107,7 @@ nav.standard a {
     font-size: 29px;
 }
 h2 {
-    font-family: just-me-again-down-here;
+    font-family: dosis;
     font-style: normal;
     font-weight: 400;
     font-variant: small-caps;
