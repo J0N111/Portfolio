@@ -66,8 +66,8 @@ nav.standard a {
     font-family: delius-unicase;
     font-style: normal;
     font-weight: 400;
-    padding-right: 8px;
-    padding-left: 0px;
+    padding-right: 15px;
+    padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 9px;
 }
@@ -105,7 +105,18 @@ nav.standard a {
     font-style: normal;
     font-weight: 400;
     font-size: 29px;
+    text-align: center;
 }
+.about .row.container-fluid .col-5.offset-1.text.col-lg-5.col-12 {
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+}
+.row.container-fluid .col-5.offset-1.text.col-lg-5.col-12.btn-group-vertical h1 {
+    text-align: center;
+}
+
+
 h2 {
     font-family: dosis;
     font-style: normal;
@@ -133,4 +144,13 @@ h1 {
 }
 .row.container-fluid.contact {
     margin-top: 151px;
+}
+
+@media (max-width: 1000px){
+}
+
+.smallPicture
+{
+	width: 90%;
+    padding-top: 25px;
 }
