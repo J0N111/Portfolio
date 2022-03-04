@@ -66,8 +66,8 @@ nav.standard a {
     font-family: delius-unicase;
     font-style: normal;
     font-weight: 400;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 5px;
+    padding-left: 5px;
     padding-top: 10px;
     padding-bottom: 9px;
 }
@@ -145,12 +145,28 @@ h1 {
 .row.container-fluid.contact {
     margin-top: 151px;
 }
+.col-5.space {
+    margin-left: 6%;
+}
+.bigBoi {
+    font-variant: small-caps;
+    font-weight: bolder;
+    text-shadow: 0px 0px rgba(143,183,224,1.00);
+}
+
+
 
 @media (max-width: 1000px){
+.space-later {
+    padding-left: 15%;
+}
+
 }
 
 .smallPicture
 {
 	width: 90%;
     padding-top: 25px;
+}
+.ro {
 }
